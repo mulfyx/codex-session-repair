@@ -1,0 +1,11 @@
+# Python and local quality tooling
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.venv/
+
+# Sensitive Codex recovery artifacts
+*.jsonl
+*.sqlite
+*.sqlite-*
+/backups/
